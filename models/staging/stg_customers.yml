@@ -1,3 +1,4 @@
+# I was asked to create this comment
 models:
   - name: stg_customers
     description: Customer data with basic cleaning and transformation applied, one row per customer.
