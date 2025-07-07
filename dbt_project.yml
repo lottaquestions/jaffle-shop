@@ -28,7 +28,7 @@ seeds:
   jaffle_shop:
     +schema: dbt_nick_production
     jaffle-data:
-      +enabled: "{{ var('load_source_data', false) }}"
+      +enabled: "{{ var('load_source_data', true) }}"
 
 models:
   jaffle_shop:
