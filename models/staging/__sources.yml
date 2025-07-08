@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: ecom
-    schema: dbt_nick_production
+    schema: dbt_nick_othieno_{{env_var('DBT_CLOUD_RUN_ID')}}
     description: E-commerce data for the Jaffle Shop
     tables:
       - name: raw_customers
