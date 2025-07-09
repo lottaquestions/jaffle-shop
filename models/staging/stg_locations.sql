@@ -23,7 +23,6 @@ renamed as (
         {{ dbt.date_trunc('day', 'opened_at') }} as opened_date
 
     from source
-    where id is not null
 
 )
 
