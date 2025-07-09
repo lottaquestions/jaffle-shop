@@ -2,7 +2,7 @@ with
 
 locations as (
 
-    select * from {{ ref('stg_locations') }}
+    select * from {{ ref('stg_locations') }} where 1=1
 
 )
 
